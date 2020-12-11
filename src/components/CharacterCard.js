@@ -34,9 +34,12 @@ const StyledCharacterCard = styled.div`
     border: 2px solid red;
     margin: 2%; 
     width: 10rem;
-    font-size: 1rem;
+    p {
+        font-size: 1rem;
+        color: whitesmoke; 
+    }
     .hide {
-        display:none;
+        /* display:none; */
     }
     .show {
         display:flex;

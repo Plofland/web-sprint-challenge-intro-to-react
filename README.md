@@ -27,16 +27,20 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 ## Interview Questions
 
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
-
+~~~off the top of my head
+***after a bit of research
 1. What is React JS and what problems does it solve? Support your answer with concepts introduced in class and from your personal research on the web.
-~~~React JS is a library (not a framework) that
+~~~React JS is a library (not a framework) that renders via the DOM and separates functions into components so that when state changes, only that component will re-render, not the entire page.
 
 
 1. Describe component state.
+~~~
 
 1. Describe props.
+~~~
 
 1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+~~~Side effects are functions that run when the DOM renders.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
@@ -57,15 +61,15 @@ You are expected to be able to answer questions in these areas. Your responses c
 
 Your finished project must include all of the following requirements:
 
-- [ ] Use ONE of the following APIs:
+- [x] Use ONE of the following APIs:
   - [Star Wars API](https://swapi.dev/)
   - [Alternate Star Wars API](https://swapi.py4e.com/)
   - [The Rick and Morty API](https://rickandmortyapi.com/)
   - [The RESTful Pokémon API](https://pokeapi.co/) (**harder**)
-- [ ] Use the documentation and Google to learn how to fetch characters from your API.
-- [ ] Obtain a list of characters. One or several requests might be needed, depending on the API.
-- [ ] Set the list of characters into state.
-- [ ] Render your characters to the screen:
+- [x] Use the documentation and Google to learn how to fetch characters from your API.
+- [x] Obtain a list of characters. One or several requests might be needed, depending on the API.
+- [x] Set the list of characters into state.
+- [x] Render your characters to the screen:
   - Build a React component named 'Character' to render an individual character.
   - Map over the list in state, and for each character render a Character to the page.
   - You must display at least one element for each character in the data set.
