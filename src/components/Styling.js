@@ -1,3 +1,5 @@
+// import RaMfont from '../fonts'
+
 export default {
     border: '3px solid white',
     display: 'flex',
@@ -6,7 +8,7 @@ export default {
 
     },
     h1: {
-
+        // fontFamily: RaMfont,
     },
     h2: {
 

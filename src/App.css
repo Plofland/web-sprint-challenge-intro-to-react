@@ -1,3 +1,10 @@
+
+
+@font-face {
+  src:local('RaMfont'), url(./fonts/get-schwifty.ttf) format('truetype');
+  font-family: 'RaMfont';
+}
+
 * {
   vertical-align: baseline;
   font-weight: inherit;
@@ -18,9 +25,21 @@
   justify-content: center;
 }
 .Header {
-  color: #443e3e;
-  font-family: 'Permanent Marker', cursive;
-  text-shadow: 1px 1px 5px #fff;
-  font-size: 1.8rem;
+  /* font-family: 'Permanent Marker', cursive; */
+  /* text-shadow: 0 0 10px #FFF874; */
+  font-size: 3rem;
+  font-family: RaMfont;
+  color: #01B4C6;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
 }
-/* write your parent styles in here for your App.js */
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #FFF874, 0 0 40px #FFF874, 0 0 50px #FFF874, 0 0 60px #FFF874, 0 0 70px #FFF874, 0 0 80px #FFF874;
+  }
+}
