@@ -19,6 +19,5 @@ const StyledCharacterCard = styled.div`
     flex-wrap: wrap;
     /* border: ${styling.border}; */
     width: 100%;
-    margin-top: 15%;
-
+    margin-top: 5%;
 `

@@ -27,23 +27,27 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 ## Interview Questions
 
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
-~~~off the top of my head
-***after a bit of research
+
+ANSWER KEY:
+  ~~~off the top of my head~~~
+  ***after a bit of research***
+
 1. What is React JS and what problems does it solve? Support your answer with concepts introduced in class and from your personal research on the web.
 ~~~React JS is a library (not a framework) that renders via the DOM and separates functions into components so that when state changes, only that component will re-render, not the entire page.
+***React JS is a library. It is made up of reusable components, easily maintained (ex. all CSS can be in one spot to easily make site-wide changes), allows easy creation of dynamic web applications, and makes use of the virtual DOM to update only the parts of the DOM that have changed. React allows better performance and an over-all better user experience.
 
 
 1. Describe component state.
 ~~~ State is the condition in which the component is holding data. When that data is changed, it will update the variable that holds the data.
-***
+***State is the object where props that belong to the component are stored. When the state object changes, the component re-renders.
 
 1. Describe props.
 ~~~Props are properties of components that hold data. This data can be passed down the DOM tree.
-***
+***Props are aruguments passed into React components. They are also used to pass down data from parent components to child components.
 
 1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
 ~~~Side effects are functions that run when the state changes and cause a part of the DOM tree to re-render.
-***
+***Side effects are something that tell the React component to call a function after performing an update to the DOM.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 

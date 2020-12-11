@@ -31,7 +31,7 @@ const StyledCharacterCard = styled.div`
         color: whitesmoke;
         text-shadow: 1px 1px 5px #9479EE; 
     }
-    border: 2px solid red;
+    border: 1px solid #282828;
     margin: 2%; 
     width: 10rem;
     p {
