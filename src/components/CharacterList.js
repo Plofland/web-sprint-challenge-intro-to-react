@@ -4,7 +4,6 @@ import styled from 'styled-components'
 import styling from './Styling'
 
 export default function CharacterList({characters}) {
-    // console.log(characters)
     return (
         <StyledCharacterCard>
             {characters.map((character) => {

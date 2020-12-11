@@ -34,13 +34,16 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 
 1. Describe component state.
-~~~
+~~~ State is the condition in which the component is holding data. When that data is changed, it will update the variable that holds the data.
+***
 
 1. Describe props.
-~~~
+~~~Props are properties of components that hold data. This data can be passed down the DOM tree.
+***
 
 1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
-~~~Side effects are functions that run when the DOM renders.
+~~~Side effects are functions that run when the state changes and cause a part of the DOM tree to re-render.
+***
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
