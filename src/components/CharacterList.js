@@ -14,8 +14,8 @@ export default function CharacterList({characters}) {
 }
 
 const StyledCharacterCard = styled.div`
-    display: flex;
-    justify-content: space-evenly;
+    display: ${styling.display};
+    justify-content: space-evenly;//why does setting this to ${styling.justifyContent} mess with my flexbox spacing?
     flex-wrap: wrap;
     /* border: ${styling.border}; */
     width: 100%;

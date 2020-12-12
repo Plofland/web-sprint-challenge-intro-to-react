@@ -1,4 +1,4 @@
-import { Accordion } from '@material-ui/core';
+// import { Accordion } from '@material-ui/core';
 import React from 'react';
 import styled from 'styled-components';
 import styling from './Styling';
@@ -18,31 +18,30 @@ export default function CharacterCard({character}) {
 }
 
 const StyledCharacterCard = styled.div`
-    display: flex;
-    flex-direction: column;
-    
+    display: ${styling.display};
+    flex-direction: ${styling.flexDirection};
     img {
-        width: 10rem;
-        height: 10rem;
-        border-radius: 1%;
+        width: ${styling.image.width};
+        height: ${styling.image.height};
+        border-radius: ${styling.image.borderRadius};
     }
     h2 {
-        font-size: 1.2rem;
-        font-weight: bold;
-        color: whitesmoke;
-        text-shadow: 1px 1px 5px #9479EE; 
+        font-size: ${styling.h2.fontSize};
+        font-weight: ${styling.h2.fontWeight};
+        color: ${styling.h2.color};
+        text-shadow: ${styling.h2.textShadow}; 
     }
-    border: 1px solid #282828;
-    margin: 2%; 
-    width: 10rem;
+    border: ${styling.border};
+    margin: ${styling.margin}; 
+    width: 10rem;//why does setting this to ${styling.margin} mess with my styling?
     p {
-        font-size: 1rem;
-        color: whitesmoke; 
+        font-size: ${styling.p.fontSize};
+        color: ${styling.p.color}; 
     }
     .hide {
         /* display:none; */
     }
     .show {
-        display:flex;
+        display:${styling.display};
     }
 `
