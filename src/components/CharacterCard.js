@@ -1,13 +1,14 @@
+import { Accordion } from '@material-ui/core';
 import React from 'react';
 import styled from 'styled-components';
 import styling from './Styling';
 
 export default function CharacterCard({character}) {
-    console.log(character)
     return (
         <StyledCharacterCard>
             <img src={character.image} alt={character.name}/>
             <h2>{character.name}</h2>
+            {/* <Accordion character={character}/> */}
             <p class="hide">{character.gender}</p>
             <p class="hide">{character.species}</p>
             <p class="hide">{character.origin.name}</p>
