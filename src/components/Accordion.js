@@ -31,6 +31,7 @@ export default function SimpleAccordion({character}) {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
+            words
             <p class="hide">{character.gender}</p>
             <p class="hide">{character.species}</p>
             <p class="hide">{character.origin.name}</p>
